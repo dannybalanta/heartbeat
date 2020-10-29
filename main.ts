@@ -2,8 +2,8 @@ basic.forever(function () {
     basic.showLeds(`
         . . . . .
         . . . . .
-        . # # # .
         . . # . .
+        . . . . .
         . . . . .
         `)
     basic.pause(100)
@@ -14,5 +14,5 @@ basic.forever(function () {
     basic.clearScreen()
     basic.showString("Love!")
     basic.clearScreen()
-    basic.pause(500)
+    basic.pause(1000)
 })
